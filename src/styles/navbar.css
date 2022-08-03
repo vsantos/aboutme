@@ -1,0 +1,37 @@
+.navbar {
+    /* padding: 0px; */
+    display: flex;
+    align-items: center;
+    /* max-width: 600px; */
+    /* position: relative; */
+    /* position: absolute; */
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+    color: #dda15e;
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+
+.navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    color: #fefae0;
+}
+
+.navbar a:hover {
+    color: #dda15e;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar h1 {
+        color: "#000"
+    }
+}

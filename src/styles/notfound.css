@@ -1,0 +1,6 @@
+.not-found {
+    max-width: 1000px;
+    display: flex;
+    padding: 50px;
+    margin: 0 auto;
+}

@@ -1,0 +1,51 @@
+.footer-container {
+    width: 100%;
+    /* min-height: 100vh; */
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-top: auto; */
+    /* width: 100%; */
+    /* width: 100%; */
+    /* height: 2.5rem; */
+    /* Footer height */
+}
+
+.footer-links {
+    display: grid;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    bottom: 0px;
+    font-size: 30px;
+}
+
+.footer-link-github {
+    padding-bottom: 10px;
+    color: #fefae0;
+}
+
+.footer-link-github:hover {
+    color: #dda15e;
+}
+
+.footer-link-linkedin {
+    padding-bottom: 10px;
+    color: #fefae0;
+}
+
+.footer-link-linkedin:hover {
+    color: #dda15e;
+    opacity: 1;
+}
+
+.footer-mini-character {
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.footer-mini-character:hover {
+    opacity: 0.5;
+}
