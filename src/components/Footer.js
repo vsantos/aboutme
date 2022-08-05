@@ -1,8 +1,11 @@
-import happy from './happy.png'; // Tell webpack this JS file uses this image
-import surprised from './surprised.png'; // Tell webpack this JS file uses this image
+import '../styles/footer.css';
+
+import happy from './happy.png';
+import surprised from './surprised.png';
+import cool from './cool.png'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import '../styles/footer.css';
 import { useState } from 'react';
 
 const Footer = () => {
@@ -24,7 +27,10 @@ const Footer = () => {
 
             <div className="footer-mini-character">
                 <img 
-                    onMouseOver={() => handleMiniCharacterHover(surprised)} onMouseOut={() => handleMiniCharacterHover(happy)}
+                    onMouseOver={() => handleMiniCharacterHover(cool)}
+                    onMouseOut={() => handleMiniCharacterHover(happy)}
+                    onMouseUp={() => handleMiniCharacterHover(cool)}
+                    onMouseDown={() => handleMiniCharacterHover(surprised)}
                     src={img} alt="Happy" width="128" height="128"
                 />
             </div>
