@@ -10,11 +10,7 @@ const Navbar = () => {
             <div className="links">
                 <a href="http://code.vsantos.cloud" target="_blank" rel='noreferrer'>Code <FontAwesomeIcon size={"xs"} icon={faExternalLinkAlt}/></a>
                 <a href="http://blog.vsantos.cloud" target="_blank" rel='noreferrer'>Blog <FontAwesomeIcon size={"xs"} icon={faExternalLinkAlt}/></a>
-                <b><Link to="/skills" style={{
-                    color: '#14213d',
-                    backgroundColor: '#dda15e',
-                    borderRadius: '6px'
-                }}>Skills</Link></b>
+                <b><Link to="/skills" className="link-skills">Skills</Link></b>
             </div>
         </nav>
      );

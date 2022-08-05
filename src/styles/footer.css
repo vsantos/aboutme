@@ -1,5 +1,6 @@
 .footer-container {
     width: 100%;
+    margin-top: auto;
     /* min-height: 100vh; */
     /* position: fixed;
     bottom: 0;
@@ -45,3 +46,14 @@
     bottom: 0;
     right: 0;
 }
+
+/* @media screen and (max-width: 1000px) {
+
+    .footer-mini-character {
+        background-color: black;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+} */
