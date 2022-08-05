@@ -7,11 +7,9 @@ const Navbar = () => {
     return ( 
         <nav className="navbar">
             <Link to="/"> <h1>vsantos.cloud_</h1></Link>
-           {/* <a href="/"> <h1>vsantos.cloud<o>_</o></h1></a> */}
             <div className="links">
-                {/* <Link to="/skills">Skills</Link> */}
-                <a href="http://code.vsantos.cloud" target="_blank" rel='noreferrer'>Code <FontAwesomeIcon size={12} icon={faExternalLinkAlt}/></a>
-                <a href="http://blog.vsantos.cloud" target="_blank" rel='noreferrer'>Blog <FontAwesomeIcon size={12} icon={faExternalLinkAlt}/></a>
+                <a href="http://code.vsantos.cloud" target="_blank" rel='noreferrer'>Code <FontAwesomeIcon size={"xs"} icon={faExternalLinkAlt}/></a>
+                <a href="http://blog.vsantos.cloud" target="_blank" rel='noreferrer'>Blog <FontAwesomeIcon size={"xs"} icon={faExternalLinkAlt}/></a>
                 <b><Link to="/skills" style={{
                     color: '#14213d',
                     backgroundColor: '#dda15e',

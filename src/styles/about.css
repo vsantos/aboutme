@@ -18,3 +18,10 @@
     -moz-box-shadow: 0 0 4px 2px rgba(0, 0, 0, .2);
     box-shadow: 0 0 4px 2px rgba(0, 0, 0, .2);
 }
+
+.about-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+}

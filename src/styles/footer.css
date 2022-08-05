@@ -13,7 +13,7 @@
 
 .footer-links {
     display: grid;
-    width: 100%;
+    /* width: 100%; */
     position: fixed;
     padding: 10px;
     bottom: 0px;
@@ -44,8 +44,4 @@
     position: fixed;
     bottom: 0;
     right: 0;
-}
-
-.footer-mini-character:hover {
-    opacity: 0.5;
 }

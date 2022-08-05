@@ -14,9 +14,8 @@ library.add(...iconList);
 
 const Skills = () => {
     const [skills] = useState(constSkills)
-    // const H = "FaDocker"
 
-    return ( 
+    return (
         <div className="skill-card-grid">
             {skills.map((skill) => (
                 <div className="skill-card" key={skill.id}>
@@ -31,11 +30,12 @@ const Skills = () => {
                     <div className="skill-card-children">
                         {skill.children.map((skillChildren) => (
                             <div className="skill-card-children-text" key={skillChildren.id}>
-                                <b>- {skillChildren.title}</b>
+                                - {skillChildren.title}
                                 {/* <p>{skillChildren.description}</p> */}
                             </div>
                         ))}
                     </div>
+
                 </div>
             ))}
         </div>
