@@ -21,7 +21,7 @@ const Footer = () => {
 
         <div className="footer-container">
             <div className="footer-links">
-            <a href="http://code.vsantos.cloud" target="_blank" rel='noreferrer'><FontAwesomeIcon className="footer-link-github" icon={faGithub} /></a>
+            <a href="http://code.vsantos.cc" target="_blank" rel='noreferrer'><FontAwesomeIcon className="footer-link-github" icon={faGithub} /></a>
             <a href="https://www.linkedin.com/in/jvictorssouza/" target="_blank" rel='noreferrer'><FontAwesomeIcon className="footer-link-linkedin" icon={faLinkedinIn} /></a>
             </div>
 
